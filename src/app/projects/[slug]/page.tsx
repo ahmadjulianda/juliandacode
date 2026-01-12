@@ -1,5 +1,6 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
+import Image from 'next/image';
 import { ArrowLeft, ExternalLink, Github, Calendar, User, ChevronLeft, ChevronRight } from 'lucide-react';
 import { Badge } from '@/components/ui/Badge';
 import { Button } from '@/components/ui/Button';
@@ -15,12 +16,15 @@ const projectsData: Record<string, {
     tags: string[];
     category: string;
     liveUrl?: string;
+
     githubUrl?: string;
+    image?: string;
     timeline: string;
     role: string;
 }> = {
     'crud-application': {
         title: 'CRUD Application',
+        image: '/projects/crud-app-bulma.jpg',
         description: 'A Fullstack Application built with Node.js, Express, MySQL, Sequelize ORM, React and Bulma for modern CRUD operations.',
         fullDescription: `This CRUD Application is a fullstack project that demonstrates the fundamentals of creating, reading, updating, and deleting data. Built with a robust backend using Node.js and Express, combined with Sequelize ORM for seamless MySQL database interactions.
 
@@ -152,11 +156,18 @@ export default async function ProjectDetailPage({ params }: { params: Promise<{ 
                     Back to Projects
                 </Button>
 
-                {/* Hero image */}
                 <div className="relative aspect-video rounded-2xl overflow-hidden bg-surface-elevated mb-10">
-                    <div className="absolute inset-0 bg-gradient-to-br from-primary/30 to-accent/30 flex items-center justify-center">
-                        <span className="text-8xl opacity-50">🚀</span>
-                    </div>
+                    {project.image ? (
+                        <img
+                            src={project.image}
+                            alt={project.title}
+                            className="w-full h-full object-cover"
+                        />
+                    ) : (
+                        <div className="absolute inset-0 bg-gradient-to-br from-primary/30 to-accent/30 flex items-center justify-center">
+                            <span className="text-8xl opacity-50">🚀</span>
+                        </div>
+                    )}
                 </div>
 
                 {/* Content */}
