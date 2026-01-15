@@ -88,7 +88,7 @@ React Server Components are a powerful addition to the React ecosystem. By under
         readingTime: '5 min',
         tags: ['React', 'Next.js', 'Tutorial'],
         author: {
-            name: 'Your Name',
+            name: 'Ahmad Julianda',
             bio: 'Full-Stack Web Developer passionate about React and modern web technologies.',
             avatar: '/avatar.jpg',
         },
@@ -144,7 +144,164 @@ Interview adalah skill yang bisa dilatih. Semakin sering kamu berlatih, semakin 
         readingTime: '8 min',
         tags: ['Career', 'Interview', 'Tips'],
         author: {
-            name: 'Your Name',
+            name: 'Ahmad Julianda',
+            bio: 'Full-Stack Web Developer passionate about React and modern web technologies.',
+            avatar: '/avatar.jpg',
+        },
+    },
+    'bahasa-pemrograman-framework-web-populer-2026': {
+        title: 'Bahasa Pemrograman & Framework Web Paling Populer di 2026',
+        excerpt: 'Panduan lengkap tentang bahasa pemrograman dan framework yang sedang populer untuk pengembangan web di era modern beserta penjelasan singkatnya.',
+        content: `
+## PENGANTAR
+
+Dunia pengembangan web terus berkembang dengan pesat. Bagi developer yang ingin tetap relevan di industri, penting untuk mengetahui bahasa pemrograman dan framework apa saja yang sedang populer dan banyak dicari oleh perusahaan. Berikut adalah daftar lengkapnya!
+
+## BAHASA PEMOGRAMAN POPULER
+
+## 1. JavaScript
+
+JavaScript tetap menjadi raja dalam pengembangan web. Bahasa ini berjalan di browser (frontend) dan server (backend dengan Node.js), menjadikannya sangat versatile.
+
+- Keunggulan: Universal (frontend & backend), ekosistem besar, komunitas aktif
+- Digunakan untuk: Web apps, mobile apps (React Native), desktop apps (Electron)
+- Tingkat kesulitan: Menengah
+
+## 2. TypeScript
+
+TypeScript adalah superset dari JavaScript yang menambahkan static typing. Dikembangkan oleh Microsoft, TypeScript membantu mendeteksi error lebih awal dan meningkatkan produktivitas developer.
+
+- Keunggulan: Type safety, autocomplete lebih baik, mudah di-maintain
+- Digunakan untuk: Aplikasi skala besar, enterprise projects
+- Tingkat kesulitan: Menengah
+
+## 3. Python
+
+Python populer karena sintaksnya yang bersih dan mudah dibaca. Selain web development, Python juga dominan di bidang data science dan AI.
+
+- Keunggulan: Mudah dipelajari, berbagai use case, library melimpah
+- Digunakan untuk: Backend, API, machine learning, automation
+- Tingkat kesulitan: Mudah
+
+## 4. PHP
+
+PHP masih menjadi tulang punggung banyak website di dunia (termasuk WordPress yang menguasai >40% web). Versi PHP 8.x membawa banyak peningkatan performa.
+
+- Keunggulan: Hosting murah, dokumentasi lengkap, mature ecosystem
+- Digunakan untuk: CMS, e-commerce, web apps tradisional
+- Tingkat kesulitan: Mudah - Menengah
+
+## 5. Go (Golang)
+
+Dikembangkan oleh Google, Go terkenal dengan performanya yang tinggi dan kemudahan dalam handling concurrency.
+
+- Keunggulan: Sangat cepat, built-in concurrency, binary compilation
+- Digunakan untuk: Microservices, API, cloud infrastructure
+- Tingkat kesulitan: Menengah
+
+## FRONTEND FRAMEWORKS POPULER
+
+## 1. React
+
+React dikembangkan oleh Meta (Facebook) dan merupakan library JavaScript paling populer untuk membangun user interface.
+
+- Keunggulan: Component-based, virtual DOM, ekosistem besar (Next.js, React Native)
+- Perusahaan pengguna: Meta, Netflix, Airbnb, Discord
+- Learning curve: Menengah
+
+## 2. Vue.js
+
+Vue.js adalah framework progresif yang mudah dipelajari. Cocok untuk pemula dan juga powerful untuk aplikasi kompleks.
+
+- Keunggulan: Dokumentasi excellent, learning curve rendah, flexible
+- Perusahaan pengguna: Alibaba, GitLab, Nintendo
+- Learning curve: Mudah - Menengah
+
+## 3. Next.js
+
+Next.js adalah React framework yang menyediakan Server-Side Rendering (SSR), Static Site Generation (SSG), dan banyak fitur production-ready.
+
+- Keunggulan: SEO-friendly, fast performance, full-stack capabilities
+- Perusahaan pengguna: Vercel, TikTok, Notion, Twitch
+- Learning curve: Menengah
+
+## 4. Angular
+
+Angular adalah framework full-featured dari Google. Cocok untuk aplikasi enterprise yang kompleks.
+
+- Keunggulan: Complete solution, TypeScript native, dependency injection
+- Perusahaan pengguna: Google, Microsoft, Samsung
+- Learning curve: Tinggi
+
+## 5. Svelte
+
+Svelte adalah compiler yang menghasilkan vanilla JavaScript yang sangat efisien. Tidak menggunakan virtual DOM seperti React.
+
+- Keunggulan: Bundle size kecil, performa excellent, sintaks sederhana
+- Perusahaan pengguna: Apple (partial), The New York Times
+- Learning curve: Mudah
+
+## BACKEND FRAMEWORKS POPULER
+
+## 1. Node.js + Express
+
+Express.js adalah framework minimalis untuk Node.js yang membuat pembuatan API dan web server menjadi mudah.
+
+- Keunggulan: Lightweight, flexible, middleware ecosystem
+- Digunakan untuk: REST API, real-time apps, microservices
+- Learning curve: Menengah
+
+## 2. Laravel (PHP)
+
+Laravel adalah framework PHP paling populer dengan fitur lengkap dan sintaks yang elegan.
+
+- Keunggulan: Eloquent ORM, Blade templating, Artisan CLI, ecosystem lengkap
+- Digunakan untuk: Web apps, API, CMS, e-commerce
+- Learning curve: Menengah
+
+## 3. Django (Python)
+
+Django adalah framework Python yang mengikuti prinsip "batteries included" - menyediakan hampir semua yang dibutuhkan.
+
+- Keunggulan: Admin panel built-in, ORM powerful, security features
+- Digunakan untuk: Web apps, API, CMS, data-driven applications
+- Learning curve: Menengah
+
+## 4. FastAPI (Python)
+
+FastAPI adalah framework Python modern yang fokus pada performa tinggi dan kemudahan penggunaan.
+
+- Keunggulan: Sangat cepat, auto-documentation, type hints
+- Digunakan untuk: REST API, microservices, ML model serving
+- Learning curve: Mudah - Menengah
+
+## 5. NestJS (Node.js)
+
+NestJS adalah framework Node.js yang terinspirasi dari Angular, cocok untuk aplikasi enterprise-grade.
+
+- Keunggulan: Modular architecture, TypeScript first, dependency injection
+- Digunakan untuk: Enterprise APIs, microservices, GraphQL servers
+- Learning curve: Menengah - Tinggi
+
+## Rekomendasi bagi yang baru mulai belajar
+
+Jika kamu baru memulai terjun ke dunia web development, berikut rekomendasi bahasa pemograman yang layak kamu pelajari:
+
+- Frontend: Mulai dengan HTML, CSS, JavaScript, lalu pelajari React atau Vue.js
+- Backend: Pilih antara Node.js + Express (jika sudah familiar JavaScript) atau Laravel (jika ingin belajar PHP)
+- Full-Stack: Next.js adalah pilihan sangat baik karena bisa handle frontend dan backend
+
+## KESIMPULAN
+
+Memilih bahasa pemrograman dan framework yang tepat tergantung pada kebutuhan proyek, preferensi tim, dan tujuan karir kamu. Yang terpenting adalah memahami fundamental dengan baik sebelum terlalu fokus pada tools tertentu.
+
+Semoga artikel ini membantu kamu dalam memilih teknologi yang tepat untuk perjalanan karir web development-mu!
+    `,
+        date: '2026-01-15',
+        readingTime: '10 min',
+        tags: ['Web Development', 'Programming', 'Framework'],
+        author: {
+            name: 'Ahmad Julianda',
             bio: 'Full-Stack Web Developer passionate about React and modern web technologies.',
             avatar: '/avatar.jpg',
         },

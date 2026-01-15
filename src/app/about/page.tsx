@@ -31,10 +31,10 @@ interface SkillCategory {
 const experiences: Experience[] = [
     {
         title: 'Frontend Developer',
-        company: 'Company A',
+        company: 'PT. Amaral Dwina Jaya',
         period: '2024 - Present',
         description: [
-            'Built responsive web applications with React and Next.js',
+            'Built responsive Company Profile with React and Tailwind CSS',
             'Improved application performance by 40% through code optimization',
             'Led the migration from JavaScript to TypeScript',
             'Mentored junior developers on best practices',
@@ -42,9 +42,9 @@ const experiences: Experience[] = [
         current: true,
     },
     {
-        title: 'Junior Web Developer',
-        company: 'Company B',
-        period: '2022 - 2024',
+        title: 'Sekretary & Web Developer',
+        company: 'Iskandar Muda Wahdah Islamiyah Education Foundation',
+        period: '2021 - Present',
         description: [
             'Developed REST APIs using Node.js and Express',
             'Maintained and improved legacy PHP applications',
@@ -53,23 +53,29 @@ const experiences: Experience[] = [
         ],
     },
     {
-        title: 'Web Developer Intern',
-        company: 'Company C',
-        period: '2021 - 2022',
+        title: 'Web Maintenance &Administrative Staff',
+        company: 'Departmen of Transportation Banda Aceh City',
+        period: '2022 - 2025',
         description: [
-            'Assisted in building company website using WordPress',
-            'Learned modern frontend technologies including React',
-            'Participated in code reviews and sprint planning',
+            'Web Ops: Performed routine maintenance, content updates, and technical troubleshooting for the official website',
+            'Admin Support: Handled digital archiving, official correspondence, and data management',
+            'Optimization: Improved the delivery of public information by keeping the web platform current and user-friendly',
         ],
     },
 ];
 
 const education: Education[] = [
     {
-        degree: 'Bachelor of Computer Science',
-        school: 'University Name',
-        period: '2018 - 2022',
-        description: 'Graduated with honors. Focused on web technologies and software engineering.',
+        degree: 'Bachelor of Mechanical Engineering',
+        school: 'Syiah Kuala University',
+        period: '2014 - 2019',
+        description: 'Graduated with honors. Focused on Corrosion and Computational Research and software engineering.',
+    },
+    {
+        degree: 'Vocational and Competency-Based Training',
+        school: 'Vocational and Productivity Training Center - Ministry of Manpower',
+        period: '2025',
+        description: 'Graduated with competently and certified. Focused on web technologies and software engineering.',
     },
 ];
 
@@ -116,9 +122,9 @@ const skillCategories: SkillCategory[] = [
 ];
 
 const certifications = [
-    { name: 'AWS Certified Cloud Practitioner', issuer: 'Amazon Web Services', year: '2024' },
-    { name: 'Meta Front-End Developer', issuer: 'Meta', year: '2023' },
-    { name: 'Google UX Design Certificate', issuer: 'Google', year: '2023' },
+    { name: 'Programming and Software Development', issuer: 'Indonesian Professional Certification Authority', year: '2025' },
+    { name: 'JavaScript Course', issuer: 'Progate', year: '2025' },
+    { name: 'PHP Developer Course (Laravel)', issuer: 'Progate', year: '2024' },
 ];
 
 export default function AboutPage() {
@@ -143,7 +149,7 @@ export default function AboutPage() {
                             </p>
                             <p className="text-text-secondary max-w-2xl mb-6">
                                 A passionate developer based in Indonesia with 3+ years of experience building
-                                web applications. I specialize in React, Node.js, and modern web technologies.
+                                web applications. I specialize in React, Node.js, PHP and Laravel and modern web technologies.
                                 I love turning complex problems into simple, beautiful, and intuitive solutions.
                             </p>
                             <div className="flex flex-wrap justify-center md:justify-start gap-3">

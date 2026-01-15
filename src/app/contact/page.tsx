@@ -226,7 +226,7 @@ export default function ContactPage() {
                                     </div>
                                     <div>
                                         <div className="text-sm text-text-tertiary">Location</div>
-                                        <span className="text-text-primary">Indonesia</span>
+                                        <span className="text-text-primary">Banda Aceh, Aceh, Indonesia</span>
                                     </div>
                                 </div>
                             </div>

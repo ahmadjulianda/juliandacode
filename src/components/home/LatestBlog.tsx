@@ -16,6 +16,14 @@ interface BlogPost {
 // Sample blog posts data
 const latestPosts: BlogPost[] = [
     {
+        slug: 'bahasa-pemrograman-framework-web-populer-2026',
+        title: 'Bahasa Pemrograman & Framework Web Paling Populer di 2026',
+        excerpt: 'Panduan lengkap tentang bahasa pemrograman dan framework yang sedang populer untuk pengembangan web di era modern.',
+        date: '2026-01-15',
+        readingTime: '10 min',
+        tags: ['Web Development', 'Programming'],
+    },
+    {
         slug: 'understanding-react-server-components',
         title: 'Understanding React Server Components in Next.js 14',
         excerpt: 'A deep dive into React Server Components and how they change the way we build React applications.',
@@ -30,14 +38,6 @@ const latestPosts: BlogPost[] = [
         date: '2025-12-28',
         readingTime: '8 min',
         tags: ['Career', 'Interview'],
-    },
-    {
-        slug: 'building-design-system-tailwind',
-        title: 'Building a Design System with Tailwind CSS',
-        excerpt: 'Learn how to create a consistent and scalable design system using Tailwind CSS custom configuration.',
-        date: '2025-12-20',
-        readingTime: '6 min',
-        tags: ['CSS', 'Design System'],
     },
 ];
 

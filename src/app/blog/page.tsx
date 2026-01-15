@@ -18,6 +18,15 @@ interface BlogPost {
 // Sample blog posts data
 const blogPosts: BlogPost[] = [
     {
+        slug: 'bahasa-pemrograman-framework-web-populer-2026',
+        title: 'Bahasa Pemrograman & Framework Web Paling Populer di 2026',
+        excerpt: 'Panduan lengkap tentang bahasa pemrograman dan framework yang sedang populer untuk pengembangan web di era modern beserta penjelasan singkatnya.',
+        date: '2026-01-15',
+        readingTime: '10 min',
+        tags: ['Web Development', 'Programming', 'Framework'],
+        featured: true,
+    },
+    {
         slug: 'understanding-react-server-components',
         title: 'Understanding React Server Components in Next.js 14',
         excerpt: 'A deep dive into React Server Components and how they change the way we build React applications. Learn the key concepts and best practices.',
