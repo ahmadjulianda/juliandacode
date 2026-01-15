@@ -12,9 +12,9 @@ const roles = [
 ];
 
 const socialLinks = [
-    { href: 'https://github.com/yourusername', icon: Github, label: 'GitHub' },
-    { href: 'https://linkedin.com/in/yourusername', icon: Linkedin, label: 'LinkedIn' },
-    { href: 'mailto:hello@yourname.com', icon: Mail, label: 'Email' },
+    { href: 'https://github.com/ahmadjulianda', icon: Github, label: 'GitHub' },
+    { href: 'https://linkedin.com/in/ahmad-julianda-70693a365', icon: Linkedin, label: 'LinkedIn' },
+    { href: 'mailto:ahmadjulianda@gmail.com', icon: Mail, label: 'Email' },
 ];
 
 export function HeroSection() {

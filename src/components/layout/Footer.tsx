@@ -91,7 +91,7 @@ export function Footer() {
                             ))}
                         </div>
                         <p className="text-sm text-text-secondary mt-4">
-                            hello@ahmadjulianda.com
+                            ahmadjulianda@gmail.com
                         </p>
                     </div>
                 </div>

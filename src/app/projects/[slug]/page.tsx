@@ -5,7 +5,7 @@ import { ArrowLeft, ExternalLink, Github, Calendar, User, ChevronLeft, ChevronRi
 import { Badge } from '@/components/ui/Badge';
 import { Button } from '@/components/ui/Button';
 
-// Sample project data - in a real app, this would come from a CMS or MDX files
+// Project data - synced with /app/projects/page.tsx
 const projectsData: Record<string, {
     title: string;
     description: string;
@@ -16,7 +16,6 @@ const projectsData: Record<string, {
     tags: string[];
     category: string;
     liveUrl?: string;
-
     githubUrl?: string;
     image?: string;
     timeline: string;
@@ -25,7 +24,7 @@ const projectsData: Record<string, {
     'crud-application': {
         title: 'CRUD Application',
         image: '/projects/crud-app-bulma.jpg',
-        description: 'A Fullstack Application built with Node.js, Express, MySQL, Sequelize ORM, React and Bulma for modern CRUD operations.',
+        description: 'A Fullstack Application build with Node.js, Express, MySQL, Sequelize ORM, React and Bulma',
         fullDescription: `This CRUD Application is a fullstack project that demonstrates the fundamentals of creating, reading, updating, and deleting data. Built with a robust backend using Node.js and Express, combined with Sequelize ORM for seamless MySQL database interactions.
 
 The frontend is powered by React, providing a dynamic and responsive user interface, while Bulma CSS framework ensures a clean and modern design. The application includes Axios for HTTP requests and CORS for secure cross-origin resource sharing.`,
@@ -41,56 +40,131 @@ The frontend is powered by React, providing a dynamic and responsive user interf
             'Axios for HTTP client',
             'Clean and organized code structure',
         ],
-        tags: ['React', 'Node.js', 'MySQL', 'Sequelize', 'Bulma', 'Express'],
+        tags: ['React', 'Node.js', 'MySQL', 'Sequelize', 'Bulma'],
         category: 'Full-Stack',
+        liveUrl: 'https://example.com',
         githubUrl: 'https://github.com/ahmadjulianda/fullstack_nodejs_sequelize_bulma',
         timeline: 'Dec 2025',
         role: 'Full-Stack Developer',
     },
+    'tugas-harian': {
+        title: 'Task Management App',
+        image: '/projects/tugas-harian.jpg',
+        description: 'A collaborative task management application with real-time updates, team features, and Kanban board interface.',
+        fullDescription: `Tugas Harian is a task management application built with Laravel and PHP. It helps users organize their daily tasks efficiently with a clean and intuitive interface.
 
-    'ecommerce-platform': {
-        title: 'E-Commerce Platform',
-        description: 'A modern e-commerce platform with real-time inventory management and payment integration.',
-        fullDescription: `This e-commerce platform was built to provide a seamless shopping experience for both customers and administrators. The platform features a modern, responsive design that works beautifully on all devices. It includes real-time inventory tracking, secure payment processing via Stripe, and a comprehensive admin dashboard for managing products, orders, and customers.`,
-        challenge: `The main challenge was implementing real-time inventory management that could handle high traffic during flash sales without overselling products. Additionally, ensuring PCI compliance while maintaining a smooth checkout experience required careful architecture decisions.`,
-        solution: `I implemented an optimistic UI pattern with server-side validation and used Redis for caching inventory counts. For payments, I integrated Stripe with webhooks to handle asynchronous payment confirmations. The admin dashboard was built with React Query for efficient data fetching and caching.`,
+The application features task categorization, priority levels, and deadline tracking to ensure productivity and task completion.`,
+        challenge: `Creating a user-friendly interface that helps users manage their daily tasks effectively while ensuring the backend can handle task updates and notifications efficiently.`,
+        solution: `Built with Laravel framework for robust backend operations and MySQL for reliable data storage. The frontend uses HTML and CSS with responsive design principles for accessibility across devices.`,
         features: [
-            'Real-time inventory tracking',
-            'Secure payment processing with Stripe',
-            'Admin dashboard with analytics',
-            'Order management system',
-            'Customer account management',
-            'Responsive design for all devices',
-            'Email notifications',
-            'Product search and filtering',
+            'Task creation and management',
+            'Priority levels and categorization',
+            'Deadline tracking and reminders',
+            'User authentication',
+            'Responsive design',
+            'Clean and intuitive interface',
         ],
-        tags: ['React', 'Node.js', 'MongoDB', 'Stripe', 'Redux', 'Tailwind CSS'],
+        tags: ['HTML', 'CSS', 'PHP', 'Laravel', 'MySQL'],
         category: 'Full-Stack',
-        liveUrl: 'https://example.com',
-        githubUrl: 'https://github.com/yourusername/ecommerce',
-        timeline: 'Oct 2025 - Dec 2025',
+        liveUrl: 'localhost:3000',
+        githubUrl: 'https://github.com/ahmadjulianda/tugas-harian',
+        timeline: 'Nov 2025',
         role: 'Full-Stack Developer',
     },
-    'task-management': {
-        title: 'Task Management App',
-        description: 'A collaborative task management application with real-time updates and team features.',
-        fullDescription: `A powerful task management application designed for teams to collaborate effectively. Features include Kanban boards, real-time updates, and comprehensive project management tools.`,
-        challenge: `Building a real-time collaboration system that could handle multiple users editing the same board simultaneously without conflicts was the primary challenge.`,
-        solution: `Implemented operational transformation for conflict resolution and used Socket.io for real-time updates. The frontend uses optimistic updates with rollback capabilities for a smooth user experience.`,
+    'amaral-company-profile': {
+        title: 'Company Profile',
+        image: '/projects/amaral-company-profile.jpg',
+        description: 'A Company Profile with Beautiful UI and user friendly, make it easy to navigate and informative.',
+        fullDescription: `Amaral Company Profile is a modern and elegant website designed to showcase a company's services, portfolio, and team. Built with React and styled with Tailwind CSS for a sleek, professional appearance.
+
+The website features smooth animations, responsive layouts, and optimized performance to ensure a great user experience across all devices.`,
+        challenge: `Creating a visually stunning company profile that effectively communicates the brand identity while maintaining fast load times and excellent user experience.`,
+        solution: `Used React for component-based architecture and Tailwind CSS for rapid, responsive styling. Implemented optimized images and lazy loading for performance.`,
         features: [
-            'Kanban board interface',
-            'Real-time collaboration',
-            'Team management',
-            'Task assignments and due dates',
-            'File attachments',
-            'Activity timeline',
+            'Beautiful and modern UI design',
+            'Responsive layout for all devices',
+            'Smooth animations and transitions',
+            'Company information sections',
+            'Service showcase',
+            'Contact form integration',
         ],
-        tags: ['Next.js', 'Prisma', 'PostgreSQL', 'Socket.io', 'TypeScript'],
-        category: 'Full-Stack',
-        liveUrl: 'https://example.com',
-        githubUrl: 'https://github.com/yourusername/taskapp',
-        timeline: 'Aug 2025 - Oct 2025',
+        tags: ['React', 'Javascript', 'Tailwind CSS'],
+        category: 'Frontend',
+        liveUrl: 'https://localhost:3000',
+        githubUrl: 'https://github.com/ahmadjulianda/amaral-company-profile',
+        timeline: 'Oct 2025',
+        role: 'Frontend Developer',
+    },
+    'website-yayasan': {
+        title: 'Company Profile',
+        image: '/projects/website-yayasan.jpg',
+        description: 'A Company Profile with Beautiful UI and user friendly, make it easy to navigate and informative.',
+        fullDescription: `Website Yayasan is a professional website designed for a foundation/organization. Built with React and styled with Tailwind CSS, it provides comprehensive information about the organization's mission, programs, and impact.
+
+The website features an accessible design, clear navigation, and engaging content presentation to connect with visitors and stakeholders effectively.`,
+        challenge: `Designing a website that clearly communicates the foundation's mission and values while making it easy for visitors to learn about programs and get involved.`,
+        solution: `Implemented a clean, professional design with React and Tailwind CSS. Created intuitive navigation and organized content sections for easy information discovery.`,
+        features: [
+            'Professional organization showcase',
+            'Mission and vision sections',
+            'Program information pages',
+            'Team member profiles',
+            'Responsive design',
+            'User-friendly navigation',
+        ],
+        tags: ['React', 'HTML', 'Tailwind CSS'],
+        category: 'Frontend',
+        liveUrl: 'https://localhost:3000',
+        githubUrl: 'https://github.com/ahmadjulianda/website-yayasan',
+        timeline: 'Sep 2025',
+        role: 'Frontend Developer',
+    },
+    'ujknodejspbl1': {
+        title: 'Blog REST API',
+        image: '/projects/ujknodejspbl1.jpg',
+        description: 'A RESTful API for blog management with authentication, authorization, and comprehensive documentation.',
+        fullDescription: `A fullstack blog application with a robust RESTful API backend. Built with Node.js and Express for the server, React for the frontend, and Prisma ORM for database operations with MySQL.
+
+The application features user authentication, blog post management, and a clean API structure for seamless frontend integration.`,
+        challenge: `Building a complete blog system with secure authentication, efficient database queries, and a well-structured API that can scale.`,
+        solution: `Used Prisma ORM for type-safe database operations and clean data modeling. Implemented JWT authentication for secure user sessions and created a React frontend for the user interface.`,
+        features: [
+            'RESTful API architecture',
+            'User authentication and authorization',
+            'Blog post CRUD operations',
+            'Prisma ORM integration',
+            'React frontend interface',
+            'MySQL database storage',
+        ],
+        tags: ['Node.js', 'Express', 'React', 'Prisma ORM', 'MySQL'],
+        category: 'Fullstack',
+        githubUrl: 'https://github.com/ahmadjulianda/ujknodejspbl1',
+        timeline: 'Aug 2025',
         role: 'Full-Stack Developer',
+    },
+    'website-pribadi': {
+        title: 'Personal Portfolio Website',
+        image: '/projects/website-pribadi.jpg',
+        description: 'A conversion-optimized landing page for a SaaS product with animations and responsive design.',
+        fullDescription: `My personal portfolio and blog website built with Next.js, featuring smooth animations powered by Framer Motion and styled with Tailwind CSS.
+
+The website showcases my projects, skills, and experience with a modern, professional design optimized for performance and SEO.`,
+        challenge: `Creating a personal brand website that effectively showcases my work and skills while providing an excellent user experience with modern animations.`,
+        solution: `Built with Next.js for optimal performance and SEO. Used Framer Motion for engaging animations and Tailwind CSS for responsive, modern styling.`,
+        features: [
+            'Modern portfolio showcase',
+            'Project gallery with details',
+            'Blog section for articles',
+            'Smooth animations with Framer Motion',
+            'Responsive design',
+            'SEO optimized',
+        ],
+        tags: ['Next.js', 'Framer Motion', 'Tailwind CSS'],
+        category: 'Frontend',
+        liveUrl: 'https://juliandacode.com',
+        githubUrl: 'https://github.com/ahmadjulianda/juliandacode',
+        timeline: 'Jan 2026',
+        role: 'Frontend Developer',
     },
 };
 

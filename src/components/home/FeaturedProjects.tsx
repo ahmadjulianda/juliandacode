@@ -13,34 +13,25 @@ interface Project {
     githubUrl?: string;
 }
 
-// Sample featured projects data
+// Featured projects data - synced with /app/projects/page.tsx
 const featuredProjects: Project[] = [
     {
-        id: 'ecommerce-platform',
-        title: 'E-Commerce Platform',
-        description: 'A modern e-commerce platform with real-time inventory, payment integration, and admin dashboard.',
-        image: '/projects/ecommerce.jpg',
-        tags: ['React', 'Node.js', 'MongoDB', 'Stripe'],
+        id: 'crud-application',
+        title: 'CRUD Application',
+        description: 'A Fullstack Application build with Node.js, Express, MySQL, Sequelize ORM, React and Bulma',
+        image: '/projects/crud-app-bulma.jpg',
+        tags: ['React', 'Node.js', 'MySQL', 'Sequelize', 'Bulma'],
         liveUrl: 'https://example.com',
-        githubUrl: 'https://github.com/yourusername/ecommerce',
+        githubUrl: 'https://github.com/ahmadjulianda/fullstack_nodejs_sequelize_bulma',
     },
     {
-        id: 'task-management',
+        id: 'tugas-harian',
         title: 'Task Management App',
-        description: 'A collaborative task management application with real-time updates and team features.',
-        image: '/projects/taskapp.jpg',
-        tags: ['Next.js', 'Prisma', 'PostgreSQL', 'Socket.io'],
-        liveUrl: 'https://example.com',
-        githubUrl: 'https://github.com/yourusername/taskapp',
-    },
-    {
-        id: 'portfolio-cms',
-        title: 'Portfolio CMS',
-        description: 'A headless CMS for managing portfolio content with a beautiful admin interface.',
-        image: '/projects/cms.jpg',
-        tags: ['Vue.js', 'Laravel', 'MySQL'],
-        liveUrl: 'https://example.com',
-        githubUrl: 'https://github.com/yourusername/cms',
+        description: 'A collaborative task management application with real-time updates, team features, and Kanban board interface.',
+        image: '/projects/tugas-harian.jpg',
+        tags: ['HTML', 'CSS', 'PHP', 'Laravel', 'MySQL'],
+        liveUrl: 'localhost:3000',
+        githubUrl: 'https://github.com/ahmadjulianda/tugas-harian',
     },
 ];
 
