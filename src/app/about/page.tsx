@@ -1,4 +1,5 @@
 import { Metadata } from 'next';
+import Image from 'next/image';
 import { Download, Mail, Calendar, Briefcase, GraduationCap, Award } from 'lucide-react';
 import { Button } from '@/components/ui/Button';
 import { Badge } from '@/components/ui/Badge';
@@ -135,9 +136,13 @@ export default function AboutPage() {
                 <section className="mb-16">
                     <div className="flex flex-col md:flex-row items-center md:items-start gap-8">
                         {/* Photo */}
-                        <div className="w-40 h-40 md:w-48 md:h-48 rounded-2xl bg-gradient-to-br from-primary to-accent flex items-center justify-center text-white text-5xl font-bold flex-shrink-0">
-                            AJ
-                        </div>
+                        <Image
+                            src="/assets/photo-ahmad.jpg"
+                            alt="Ahmad Julianda"
+                            width={192}
+                            height={192}
+                            className="w-40 h-40 md:w-48 md:h-48 rounded-2xl object-cover flex-shrink-0"
+                        />
 
                         {/* Info */}
                         <div className="text-center md:text-left">
