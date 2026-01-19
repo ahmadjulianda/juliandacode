@@ -324,7 +324,7 @@ export default function AboutPage() {
                             <section className="bg-surface border border-border rounded-xl p-6">
                                 <h2 className="font-semibold text-text-primary mb-4">Fun Facts</h2>
                                 <ul className="space-y-2 text-sm text-text-secondary">
-                                    <li>☕ Coffee lover (3+ cups/day)</li>
+                                    <li>☕ Coffee lover</li>
                                     <li>🎮 Casual gamer in my free time</li>
                                     <li>📚 Always reading tech blogs</li>
                                     <li>🎵 Code better with lo-fi music</li>
