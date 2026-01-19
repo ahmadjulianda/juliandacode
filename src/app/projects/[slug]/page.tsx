@@ -21,6 +21,30 @@ const projectsData: Record<string, {
     timeline: string;
     role: string;
 }> = {
+    'data-student': {
+        title: 'Student Data Application',
+        image: '/projects/data-student2.jpg',
+        description: 'A Fullstack Application build with Node.js, Express, MySQL, Prisma ORM, React and Tailwind CSS',
+        fullDescription: `A fullstack web application for managing student data across multiple schools under an educational foundation. Built with modern technologies including Next.js, React, Node.js, Express, and MySQL with Prisma ORM.`,
+        challenge: `The main challenge was designing a clean architecture that separates concerns between the frontend and backend while maintaining efficient data flow. Ensuring proper error handling and validation across the stack was also crucial.`,
+        solution: `I implemented a RESTful API architecture using Express with Prisma ORM for clean database operations. The React frontend uses Axios for API calls with proper error handling. Tailwind CSS provides responsive styling without heavy configuration.`,
+        features: [
+            'Create, Read, Update, Delete operations',
+            'Authentication System: Secure user registration and login with JWT tokens',
+            'Student Management: Complete CRUD operations for student records',
+            'School Management: Manage multiple schools under foundations',
+            'Foundation Management: Organize educational foundations',
+            'Dashboard Analytics: Visual statistics and data overview',
+            'Responsive Design: Works on desktop, tablet, and mobile devices',
+            'Modern UI: Beautiful dark theme with glassmorphism effects',
+        ],
+        tags: ['React', 'Node.js', 'MySQL', 'Prisma ORM', 'Tailwind CSS'],
+        category: 'Full-Stack',
+        liveUrl: 'https://example.com',
+        githubUrl: 'https://github.com/ahmadjulianda/data-student-school-foundation',
+        timeline: 'Jan 2025',
+        role: 'Full-Stack Developer',
+    },
     'crud-application': {
         title: 'CRUD Application',
         image: '/projects/crud-app-bulma.jpg',

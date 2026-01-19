@@ -20,6 +20,17 @@ interface Project {
 // Sample projects data
 const projects: Project[] = [
     {
+        id: 'data-student',
+        title: 'Student Data Application',
+        description: 'A Fullstack Application build with Node.js, Express, MySQL, Sequelize ORM, React and Bulma',
+        image: '/projects/data-student2.jpg',
+        tags: ['React', 'Node.js', 'MySQL', 'Prisma', 'Tailwind CSS'],
+        category: 'Full-Stack',
+        liveUrl: 'https://example.com',
+        githubUrl: 'https://github.com/ahmadjulianda/data-student-school-foundation',
+        featured: true,
+    },
+    {
         id: 'crud-application',
         title: 'CRUD Application',
         description: 'A Fullstack Application build with Node.js, Express, MySQL, Sequelize ORM, React and Bulma',
