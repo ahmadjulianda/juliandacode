@@ -97,13 +97,12 @@ The application features task categorization, priority levels, and deadline trac
     },
     'amaral-company-profile': {
         title: 'Company Profile',
-        image: '/projects/amaral-company-profile.jpg',
+        image: '/projects/amaral-2.jpg',
         description: 'A Company Profile with Beautiful UI and user friendly, make it easy to navigate and informative.',
-        fullDescription: `Amaral Company Profile is a modern and elegant website designed to showcase a company's services, portfolio, and team. Built with React and styled with Tailwind CSS for a sleek, professional appearance.
-
-The website features smooth animations, responsive layouts, and optimized performance to ensure a great user experience across all devices.`,
+        fullDescription: `A modern, professional company profile website built for PT. Amaral Dwina Jaya, an industrial contractor and general supplier based in Aceh, Indonesia. The website serves as a digital presence to showcase the company's services in labor supply,
+         mechanical engineering, general supplies, and contracting. Built with Next.js 14, TypeScript, and Tailwind CSS, the website features a fully responsive design, dynamic content management, interactive UI components, and seamless WhatsApp integration for instant customer communication.`,
         challenge: `Creating a visually stunning company profile that effectively communicates the brand identity while maintaining fast load times and excellent user experience.`,
-        solution: `Used React for component-based architecture and Tailwind CSS for rapid, responsive styling. Implemented optimized images and lazy loading for performance.`,
+        solution: `Used Next.js 14 for component-based architecture and Tailwind CSS for rapid, responsive styling. Implemented optimized images and lazy loading for performance.`,
         features: [
             'Beautiful and modern UI design',
             'Responsive layout for all devices',
